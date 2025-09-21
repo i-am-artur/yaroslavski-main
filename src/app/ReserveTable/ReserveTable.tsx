@@ -3,16 +3,6 @@ import ReserveTableForm from './ReserveTableForm';
 import reserve from './reserve1.gif';
 import Image from 'next/image';
 
-const workingHours = [
-  { day: 'Понеділок', time: '11:00 - 21:00' },
-  { day: 'Вівторок', time: '11:00 - 21:00' },
-  { day: 'Середа', time: '11:00 - 21:00' },
-  { day: 'Четвер', time: '11:00 - 21:00' },
-  { day: 'Пʼятниця', time: '11:00 - 21:00' },
-  { day: 'Субота', time: '11:00 - 21:00' },
-  { day: 'Неділя', time: '11:00 - 21:00' },
-];
-
 export default function ReserveTable() {
   return (
     <section

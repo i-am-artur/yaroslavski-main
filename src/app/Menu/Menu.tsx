@@ -4,7 +4,8 @@ import Image from 'next/image';
 
 export default function Menu() {
   return (
-    <section
+    <a
+      href="https://yaroslavskiy.kh.ua/assortment/ua/categories/"
       className={css({
         width: '100%',
         stack: 'row',
@@ -20,7 +21,6 @@ export default function Menu() {
         },
       })}
     >
-      <a href="https://yaroslavskiy.kh.ua/assortment/ua/categories/">
       <Image
         src={pgSplit.src}
         alt="Гранат"
@@ -39,8 +39,7 @@ export default function Menu() {
           },
         })}
       />
-      </a><a href="https://yaroslavskiy.kh.ua/assortment/ua/categories/">
-      <h2 className={css({ margin: '0 auto', fontWeight: 'bold' })}>МЕНЮ РЕСТОРАНУ</h2></a>
-    </section>
+      <h2 className={css({ margin: '0 auto', fontWeight: 'bold' })}>МЕНЮ РЕСТОРАНУ</h2>
+    </a>
   );
 }

@@ -9,7 +9,7 @@ import Header from './Header/Header';
 import Mangal from './Mangal/Mangal';
 import Memorial from './Memorial/Memorial';
 import Menu from './Menu/Menu';
-import ReserveTable from './ReserveTeable/ReserveTable';
+import ReserveTable from './ReserveTable/ReserveTable';
 
 export default function Home() {
   return (

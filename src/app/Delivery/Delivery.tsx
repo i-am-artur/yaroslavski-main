@@ -4,7 +4,8 @@ import delivery from './delivery.png';
 
 export default function Delivery() {
   return (
-    <section
+    <a
+      href="https://yaroslavskiy.kh.ua/assortment?isDelivery=1"
       className={css({
         width: '100%',
         paddingTop: 'box',
@@ -20,23 +21,16 @@ export default function Delivery() {
         },
       })}
     >
-      <h2 className={css({ fontWeight: 'bold' })}>
-        <a href="https://yaroslavskiy.kh.ua/assortment?isDelivery=1">
-          ДОСТАВКА ЇЖІ
-        </a>
-      </h2>
-        
-      <a href="https://yaroslavskiy.kh.ua/assortment?isDelivery=1">
-        <Image
-          src={delivery}
-          alt="Доставка їжі"
-          height={119}
-          width={217}
-          className={css({
-            display: 'block',
-          })}
-        />
-      </a>
-    </section>
+      <h2 className={css({ fontWeight: 'bold' })}>ДОСТАВКА ЇЖІ</h2>
+      <Image
+        src={delivery}
+        alt="Доставка їжі"
+        height={119}
+        width={217}
+        className={css({
+          display: 'block',
+        })}
+      />
+    </a>
   );
 }
