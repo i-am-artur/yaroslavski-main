@@ -1,5 +1,6 @@
 import { css } from '../../styled-system/css/css';
 import About from './About/About';
+import Announcemnt from './Announcment';
 import Areas from './Areas/Areas';
 import Banquet from './Banquet/Banquet';
 import Delivery from './Delivery/Delivery';
@@ -22,6 +23,7 @@ export default function Home() {
       })}
     >
       <Header />
+      <Announcemnt />
       <main
         className={css({
           maxWidth: '1200px',
